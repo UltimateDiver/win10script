@@ -67,7 +67,7 @@ $tweaks = @(
 	# "DisableAdminShares",           # "EnableAdminShares",
 	"DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
-	"DisableLLMNR",               # "EnableLLMNR",
+	# "DisableLLMNR",               # "EnableLLMNR",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
@@ -76,15 +76,15 @@ $tweaks = @(
 	"EnableDefender",
 	"EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	"SetDEPOptIn",                #"SetDEPOptOut",                 
-	"EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
+	#"SetDEPOptIn",                #"SetDEPOptOut",                 
+	#"EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
-	"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
+	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
 	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
 
 	### Service Tweaks ###
-	"EnableUpdateMSRT",          # "DisableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
+	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
+	"EnableUpdateDriver",        # "DisableUpdateDriver",
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
@@ -154,7 +154,7 @@ $tweaks = @(
 	"DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-    "EnableOneDrive",
+    #"EnableOneDrive",
 	#"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
@@ -164,7 +164,7 @@ $tweaks = @(
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
-	"InstallHyperV",              # "UninstallHyperV",
+	#"UninstallHyperV",              # "InstallHyperV",
 	#"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
