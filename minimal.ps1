@@ -32,11 +32,11 @@ $tweaks = @(
 	"TitusRegistryTweaks",
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
-	#"InstallNotepadplusplus",
-	#"InstallIrfanview",
+	# "InstallNotepadplusplus",
+	# "InstallIrfanview",
 	"InstallVLC",
 	"InstallAdobe",
-	#"InstallBrave",
+	# "InstallBrave",
 	"ChangeDefaultApps",
 
 	### Windows Apps
@@ -67,7 +67,7 @@ $tweaks = @(
 	# "DisableAdminShares",           # "EnableAdminShares",
 	"DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
-	"EnableLLMNR",               # "DisableLLMNR",
+	"DisableLLMNR",               # "EnableLLMNR",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
@@ -113,7 +113,7 @@ $tweaks = @(
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
 	"EnableFileDeleteConfirm",	    # "DisableFileDeleteConfirm",    
 	"HideTaskbarSearch",
-	#"ShowTaskbarSearchIcon",      	# "ShowTaskbarSearchBox",
+	# "ShowTaskbarSearchIcon",      	# "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
 	"ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	"SetTaskbarCombineAlways", 		# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever", 
@@ -154,7 +154,7 @@ $tweaks = @(
 	"DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-    #"EnableOneDrive",
+    # "EnableOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
@@ -164,8 +164,8 @@ $tweaks = @(
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
-	#"UninstallHyperV",              # "InstallHyperV",
-	#"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
+	# "UninstallHyperV",              # "InstallHyperV",
+	# "SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
 	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
